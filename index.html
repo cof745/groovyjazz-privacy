@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GroovyJazz - Privacy Policy</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #e0e0e0;
+            background: linear-gradient(135deg, #2d1b69 0%, #1a0f3f 100%);
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        h1 {
+            color: #ff6b35;
+            border-bottom: 3px solid #4ecdc4;
+            padding-bottom: 10px;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            font-size: 2.5em;
+        }
+        h2 {
+            color: #4ecdc4;
+            margin-top: 30px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+        .lang-selector {
+            text-align: center;
+            margin: 20px 0;
+            padding: 15px;
+            background: rgba(26, 15, 63, 0.8);
+            border-radius: 10px;
+            border: 2px solid #ff6b35;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        .lang-selector button {
+            margin: 5px;
+            padding: 10px 18px;
+            background: linear-gradient(135deg, #2d1b69 0%, #1a0f3f 100%);
+            color: #4ecdc4;
+            border: 2px solid #4ecdc4;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s;
+            font-weight: 600;
+        }
+        .lang-selector button:hover {
+            background: linear-gradient(135deg, #ff6b35 0%, #ff8855 100%);
+            color: #1a0f3f;
+            border-color: #ff6b35;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(255, 107, 53, 0.4);
+        }
+        .lang-selector button.active {
+            background: linear-gradient(135deg, #4ecdc4 0%, #6edddd 100%);
+            color: #1a0f3f;
+            border-color: #4ecdc4;
+            box-shadow: 0 0 15px rgba(78, 205, 196, 0.5);
+        }
+        .content {
+            display: none;
+            background: rgba(26, 15, 63, 0.6);
+            padding: 25px;
+            border-radius: 15px;
+            border: 2px solid #4ecdc4;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+        }
+        .content.active {
+            display: block;
+        }
+        .contact {
+            background: rgba(255, 107, 53, 0.2);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 25px;
+            border: 2px solid #ff6b35;
+        }
+        a {
+            color: #4ecdc4;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+            text-shadow: 0 0 5px rgba(78, 205, 196, 0.5);
+        }
+        .jazz-decoration {
+            text-align: center;
+            font-size: 28px;
+            margin: 25px 0;
+            animation: groove 2s ease-in-out infinite;
+        }
+        @keyframes groove {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+    </style>
+</head>
+<body>
+    <h1>🎷 GroovyJazz 🎷</h1>
+    <div class="jazz-decoration">🎺 ♪ 🎷 ♫ 🎹</div>
+    
+    <div class="lang-selector">
+        <button onclick="switchLang('ja')" id="btn-ja" class="active">日本語</button>
+        <button onclick="switchLang('en')" id="btn-en">English</button>
+        <button onclick="switchLang('zh')" id="btn-zh">中文</button>
+        <button onclick="switchLang('es')" id="btn-es">Español</button>
+        <button onclick="switchLang('hi')" id="btn-hi">हिन्दी</button>
+        <button onclick="switchLang('pt')" id="btn-pt">Português</button>
+        <button onclick="switchLang('ar')" id="btn-ar">العربية</button>
+    </div>
+
+    <!-- 日本語 -->
+    <div id="content-ja" class="content active">
+        <h2>プライバシーポリシー</h2>
+        <p>本プライバシーポリシーは、GroovyJazz（以下、「本アプリ」）がユーザーの情報をどのように扱うかを説明するものです。</p>
+
+        <h2>1. 収集する情報</h2>
+        <p>本アプリは、ユーザーの個人情報を直接収集することはありません。</p>
+
+        <h2>2. 広告について</h2>
+        <p>本アプリは、Google AdMobを使用して広告を表示します。AdMobは、広告の表示とパーソナライゼーションのために、デバイス情報や広告IDなどの情報を収集する場合があります。</p>
+        <p>AdMobのプライバシーポリシー: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
+
+        <h2>3. 情報の使用</h2>
+        <p>本アプリ自体は、ユーザーの個人情報を収集・使用しません。広告配信に関する情報の使用については、各広告プロバイダーのプライバシーポリシーをご確認ください。</p>
+
+        <h2>4. 情報の共有</h2>
+        <p>本アプリは、ユーザーの個人情報を第三者と共有することはありません。</p>
+
+        <h2>5. セキュリティ</h2>
+        <p>本アプリは、ユーザーデータを収集しないため、データ漏洩のリスクはありません。</p>
+
+        <h2>6. 子供のプライバシー</h2>
+        <p>本アプリは、13歳未満の子供から意図的に個人情報を収集することはありません。</p>
+
+        <h2>7. 変更について</h2>
+        <p>本プライバシーポリシーは、必要に応じて更新される場合があります。重要な変更がある場合は、アプリ内でお知らせします。</p>
+
+        <h2>8. お問い合わせ</h2>
+        <div class="contact">
+            <p>プライバシーに関するご質問やご不明な点がございましたら、以下までお問い合わせください：</p>
+            <p>Email: nisakegame@gmail.com</p>
+        </div>
+
+        <p style="text-align: center; margin-top: 30px; color: #ff6b35;">最終更新日: 2025年1月</p>
+    </div>
+
+    <!-- English -->
+    <div id="content-en" class="content">
+        <h2>Privacy Policy</h2>
+        <p>This Privacy Policy explains how GroovyJazz ("the App") handles user information.</p>
+
+        <h2>1. Information We Collect</h2>
+        <p>The App does not directly collect any personal information from users.</p>
+
+        <h2>2. Advertising</h2>
+        <p>The App uses Google AdMob to display advertisements. AdMob may collect device information and advertising IDs for ad display and personalization.</p>
+        <p>AdMob Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
+
+        <h2>3. Use of Information</h2>
+        <p>The App itself does not collect or use user personal information. For information use related to ad delivery, please refer to each ad provider's privacy policy.</p>
+
+        <h2>4. Information Sharing</h2>
+        <p>The App does not share user personal information with third parties.</p>
+
+        <h2>5. Security</h2>
+        <p>Since the App does not collect user data, there is no risk of data breach.</p>
+
+        <h2>6. Children's Privacy</h2>
+        <p>The App does not intentionally collect personal information from children under 13 years of age.</p>
+
+        <h2>7. Changes</h2>
+        <p>This Privacy Policy may be updated as necessary. We will notify users of significant changes within the app.</p>
+
+        <h2>8. Contact Us</h2>
+        <div class="contact">
+            <p>If you have any questions about privacy, please contact us at:</p>
+            <p>Email: nisakegame@gmail.com</p>
+        </div>
+
+        <p style="text-align: center; margin-top: 30px; color: #ff6b35;">Last Updated: January 2025</p>
+    </div>
+
+    <!-- 中文 -->
+    <div id="content-zh" class="content">
+        <h2>隐私政策</h2>
+        <p>本隐私政策说明了GroovyJazz（以下简称"本应用"）如何处理用户信息。</p>
+
+        <h2>1. 收集的信息</h2>
+        <p>本应用不会直接收集用户的任何个人信息。</p>
+
+        <h2>2. 关于广告</h2>
+        <p>本应用使用Google AdMob展示广告。AdMob可能会收集设备信息和广告ID等信息，用于广告展示和个性化。</p>
+        <p>AdMob隐私政策: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
+
+        <h2>3. 信息使用</h2>
+        <p>本应用本身不收集或使用用户个人信息。有关广告投放相关的信息使用，请参阅各广告提供商的隐私政策。</p>
+
+        <h2>4. 信息共享</h2>
+        <p>本应用不会与第三方共享用户个人信息。</p>
+
+        <h2>5. 安全性</h2>
+        <p>由于本应用不收集用户数据，因此不存在数据泄露的风险。</p>
+
+        <h2>6. 儿童隐私</h2>
+        <p>本应用不会故意收集13岁以下儿童的个人信息。</p>
+
+        <h2>7. 变更</h2>
+        <p>本隐私政策可能会根据需要进行更新。如有重大变更，我们将在应用内通知用户。</p>
+
+        <h2>8. 联系我们</h2>
+        <div class="contact">
+            <p>如有任何关于隐私的问题，请通过以下方式联系我们：</p>
+            <p>Email: nisakegame@gmail.com</p>
+        </div>
+
+        <p style="text-align: center; margin-top: 30px; color: #ff6b35;">最后更新：2025年1月</p>
+    </div>
+
+    <!-- Español -->
+    <div id="content-es" class="content">
+        <h2>Política de Privacidad</h2>
+        <p>Esta Política de Privacidad explica cómo GroovyJazz ("la Aplicación") maneja la información del usuario.</p>
+
+        <h2>1. Información que Recopilamos</h2>
+        <p>La Aplicación no recopila directamente ninguna información personal de los usuarios.</p>
+
+        <h2>2. Publicidad</h2>
+        <p>La Aplicación utiliza Google AdMob para mostrar anuncios. AdMob puede recopilar información del dispositivo e IDs de publicidad para la visualización y personalización de anuncios.</p>
+        <p>Política de Privacidad de AdMob: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
+
+        <h2>3. Uso de la Información</h2>
+        <p>La Aplicación en sí no recopila ni utiliza información personal del usuario. Para el uso de información relacionada con la entrega de anuncios, consulte la política de privacidad de cada proveedor de anuncios.</p>
+
+        <h2>4. Compartir Información</h2>
+        <p>La Aplicación no comparte información personal del usuario con terceros.</p>
+
+        <h2>5. Seguridad</h2>
+        <p>Como la Aplicación no recopila datos del usuario, no existe riesgo de violación de datos.</p>
+
+        <h2>6. Privacidad de los Niños</h2>
+        <p>La Aplicación no recopila intencionalmente información personal de niños menores de 13 años.</p>
+
+        <h2>7. Cambios</h2>
+        <p>Esta Política de Privacidad puede actualizarse según sea necesario. Notificaremos a los usuarios sobre cambios significativos dentro de la aplicación.</p>
+
+        <h2>8. Contáctanos</h2>
+        <div class="contact">
+            <p>Si tiene alguna pregunta sobre privacidad, contáctenos en:</p>
+            <p>Email: nisakegame@gmail.com</p>
+        </div>
+
+        <p style="text-align: center; margin-top: 30px; color: #ff6b35;">Última actualización: Enero 2025</p>
+    </div>
+
+    <!-- हिन्दी -->
+    <div id="content-hi" class="content">
+        <h2>गोपनीयता नीति</h2>
+        <p>यह गोपनीयता नीति बताती है कि GroovyJazz ("ऐप") उपयोगकर्ता जानकारी को कैसे संभालता है।</p>
+
+        <h2>1. हम जो जानकारी एकत्र करते हैं</h2>
+        <p>ऐप उपयोगकर्ताओं से सीधे कोई व्यक्तिगत जानकारी एकत्र नहीं करता है।</p>
+
+        <h2>2. विज्ञापन</h2>
+        <p>ऐप विज्ञापन प्रदर्शित करने के लिए Google AdMob का उपयोग करता है। AdMob विज्ञापन प्रदर्शन और वैयक्तिकरण के लिए डिवाइस जानकारी और विज्ञापन ID एकत्र कर सकता है।</p>
+        <p>AdMob गोपनीयता नीति: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
+
+        <h2>3. जानकारी का उपयोग</h2>
+        <p>ऐप स्वयं उपयोगकर्ता की व्यक्तिगत जानकारी एकत्र या उपयोग नहीं करता है। विज्ञापन वितरण से संबंधित जानकारी के उपयोग के लिए, कृपया प्रत्येक विज्ञापन प्रदाता की गोपनीयता नीति देखें।</p>
+
+        <h2>4. जानकारी साझाकरण</h2>
+        <p>ऐप तीसरे पक्ष के साथ उपयोगकर्ता की व्यक्तिगत जानकारी साझा नहीं करता है।</p>
+
+        <h2>5. सुरक्षा</h2>
+        <p>चूंकि ऐप उपयोगकर्ता डेटा एकत्र नहीं करता है, डेटा उल्लंघन का कोई जोखिम नहीं है।</p>
+
+        <h2>6. बच्चों की गोपनीयता</h2>
+        <p>ऐप जानबूझकर 13 वर्ष से कम उम्र के बच्चों से व्यक्तिगत जानकारी एकत्र नहीं करता है।</p>
+
+        <h2>7. परिवर्तन</h2>
+        <p>यह गोपनीयता नीति आवश्यकतानुसार अपडेट की जा सकती है। हम ऐप के भीतर महत्वपूर्ण परिवर्तनों के बारे में उपयोगकर्ताओं को सूचित करेंगे।</p>
+
+        <h2>8. हमसे संपर्क करें</h2>
+        <div class="contact">
+            <p>यदि आपके पास गोपनीयता के बारे में कोई प्रश्न है, तो कृपया हमसे संपर्क करें:</p>
+            <p>Email: nisakegame@gmail.com</p>
+        </div>
+
+        <p style="text-align: center; margin-top: 30px; color: #ff6b35;">अंतिम अपडेट: जनवरी 2025</p>
+    </div>
+
+    <!-- Português -->
+    <div id="content-pt" class="content">
+        <h2>Política de Privacidade</h2>
+        <p>Esta Política de Privacidade explica como o GroovyJazz ("o Aplicativo") lida com as informações do usuário.</p>
+
+        <h2>1. Informações que Coletamos</h2>
+        <p>O Aplicativo não coleta diretamente nenhuma informação pessoal dos usuários.</p>
+
+        <h2>2. Publicidade</h2>
+        <p>O Aplicativo usa o Google AdMob para exibir anúncios. O AdMob pode coletar informações do dispositivo e IDs de publicidade para exibição e personalização de anúncios.</p>
+        <p>Política de Privacidade do AdMob: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
+
+        <h2>3. Uso de Informações</h2>
+        <p>O Aplicativo em si não coleta ou usa informações pessoais do usuário. Para uso de informações relacionadas à entrega de anúncios, consulte a política de privacidade de cada provedor de anúncios.</p>
+
+        <h2>4. Compartilhamento de Informações</h2>
+        <p>O Aplicativo não compartilha informações pessoais do usuário com terceiros.</p>
+
+        <h2>5. Segurança</h2>
+        <p>Como o Aplicativo não coleta dados do usuário, não há risco de violação de dados.</p>
+
+        <h2>6. Privacidade de Crianças</h2>
+        <p>O Aplicativo não coleta intencionalmente informações pessoais de crianças menores de 13 anos.</p>
+
+        <h2>7. Alterações</h2>
+        <p>Esta Política de Privacidade pode ser atualizada conforme necessário. Notificaremos os usuários sobre mudanças significativas dentro do aplicativo.</p>
+
+        <h2>8. Entre em Contato</h2>
+        <div class="contact">
+            <p>Se você tiver alguma dúvida sobre privacidade, entre em contato conosco:</p>
+            <p>Email: nisakegame@gmail.com</p>
+        </div>
+
+        <p style="text-align: center; margin-top: 30px; color: #ff6b35;">Última atualização: Janeiro 2025</p>
+    </div>
+
+    <!-- العربية -->
+    <div id="content-ar" class="content" style="direction: rtl;">
+        <h2>سياسة الخصوصية</h2>
+        <p>توضح سياسة الخصوصية هذه كيفية تعامل GroovyJazz ("التطبيق") مع معلومات المستخدم.</p>
+
+        <h2>1. المعلومات التي نجمعها</h2>
+        <p>لا يجمع التطبيق أي معلومات شخصية من المستخدمين بشكل مباشر.</p>
+
+        <h2>2. الإعلانات</h2>
+        <p>يستخدم التطبيق Google AdMob لعرض الإعلانات. قد يجمع AdMob معلومات الجهاز ومعرفات الإعلانات لعرض الإعلانات وتخصيصها.</p>
+        <p>سياسة خصوصية AdMob: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
+
+        <h2>3. استخدام المعلومات</h2>
+        <p>التطبيق نفسه لا يجمع أو يستخدم المعلومات الشخصية للمستخدم. لاستخدام المعلومات المتعلقة بتسليم الإعلانات، يرجى الرجوع إلى سياسة الخصوصية لكل مزود إعلانات.</p>
+
+        <h2>4. مشاركة المعلومات</h2>
+        <p>لا يشارك التطبيق المعلومات الشخصية للمستخدم مع أطراف ثالثة.</p>
+
+        <h2>5. الأمان</h2>
+        <p>نظرًا لأن التطبيق لا يجمع بيانات المستخدم، فلا يوجد خطر من اختراق البيانات.</p>
+
+        <h2>6. خصوصية الأطفال</h2>
+        <p>لا يجمع التطبيق عن قصد معلومات شخصية من الأطفال دون سن 13 عامًا.</p>
+
+        <h2>7. التغييرات</h2>
+        <p>قد يتم تحديث سياسة الخصوصية هذه حسب الضرورة. سنخطر المستخدمين بالتغييرات المهمة داخل التطبيق.</p>
+
+        <h2>8. اتصل بنا</h2>
+        <div class="contact">
+            <p>إذا كانت لديك أي أسئلة حول الخصوصية، يرجى الاتصال بنا على:</p>
+            <p>البريد الإلكتروني: nisakegame@gmail.com</p>
+        </div>
+
+        <p style="text-align: center; margin-top: 30px; color: #ff6b35;">آخر تحديث: يناير 2025</p>
+    </div>
+
+    <script>
+        function switchLang(lang) {
+            // すべてのコンテンツを非表示
+            document.querySelectorAll('.content').forEach(el => {
+                el.classList.remove('active');
+            });
+            // すべてのボタンから active クラスを削除
+            document.querySelectorAll('.lang-selector button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
+            // 選択された言語のコンテンツを表示
+            document.getElementById('content-' + lang).classList.add('active');
+            document.getElementById('btn-' + lang).classList.add('active');
+        }
+    </script>
+</body>
+</html>
